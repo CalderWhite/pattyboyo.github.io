@@ -31,6 +31,7 @@
   clear: both;
   margin-left: 91px;
   overflow: hidden;
+  border-radius:10%;
 }
 
 .topbar div {
