@@ -21,17 +21,15 @@
   color: white;
 }
 
-.main h1 {
-  color:white;
-}
 
-.sidebar {
+
+.topbar {
   position: fixed;
-  height: 100%;
-  width: 90px;
+  height: 200px;
+  width: 900px;
   background-color: #10C8CD;
   border: 2px solid black;
-  margin-left: 0px;
+  clear: both;
 }
 
 img {
@@ -43,22 +41,5 @@ button {
   margin-top:500px;
 }
 
-.supersecret {
-  margin-left: 590px;
-  width: 200px;
-  height: 400px;
-}
 
-.dropdown {
-   position:absolute;
-   display:none;
-   height:500px;
-   width:500px;
-   z-index:123123;
-   margin-top:500px;
-}
-
-img:hover .dropdown {
-    display: block;
-}
 
