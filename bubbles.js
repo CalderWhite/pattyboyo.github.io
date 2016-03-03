@@ -276,7 +276,7 @@ function updateCanvasDimensions() {
     // basic variables, you can change them to resize the canvas element
     canvas.attr({
         height: 250,
-        width: 600
+        width: 700
     });
     // assign to variables the values defined above
     canvasWidth = canvas.width();
