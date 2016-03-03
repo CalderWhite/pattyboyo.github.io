@@ -275,8 +275,8 @@ function initEventListeners() {
 function updateCanvasDimensions() {
     // basic variables, you can change them to resize the canvas element
     canvas.attr({
-        height: 300,
-        width: 700
+        height: 250,
+        width: 600
     });
     // assign to variables the values defined above
     canvasWidth = canvas.width();
