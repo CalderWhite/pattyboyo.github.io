@@ -50,5 +50,17 @@ button {
   margin-top:500px;
 }
 
+.topbar div img{
+  width: 200px;
+  height:100px;
+}
 
+.topbar div {
+  display:inline-block;
+  width: 200px;
+  text-align: center;
+  line-height: 25px;
+  height: 500px;
+  overflow: auto;
+}
 
