@@ -24,7 +24,7 @@
 
 .topbar {
   position: fixed;
-  height: 50px;
+  height: 100px;
   width: 1101px;
   background-color: #10C8CD;
   border: 2px solid black;
@@ -33,13 +33,6 @@
   border-radius:12px;
 }
 
-.topbar div {
-  display:inline-block;
-  width: 100px;
-  text-align: center;
-  line-height: 25px;
-  height: 50px;
-}
 
 img {
   width: 300px;
