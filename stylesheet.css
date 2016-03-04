@@ -46,6 +46,7 @@ button {
 .topbar div img{
   width: 200px;
   height:100px;
+  border-radius: 12px;
 }
 
 .topbar div {
