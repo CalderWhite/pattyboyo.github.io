@@ -6,16 +6,16 @@ overflow-y: scroll;
 
 .main {
  
-  margin-left: 91px;
+  margin-left: 40px;
 
   background-color: #5b88f6;
   border: 2px solid black;
-  width: 900px;
-  height: 1000px;
+  width: 800px;
+  height: 780px;
   background-image:url(' http://www.planwallpaper.com/static/images/Abstract-Cool-Background.jpg');
   padding-left: 100px;
   padding-right: 100px;
-  background-size: 1000px 900px;
+  background-size: 1000px 800px;
   text-align: center;
 }
 
@@ -28,11 +28,11 @@ overflow-y: scroll;
 .topbar {
 
   height: 100px;
-  width: 1101px;
+  width: 1000px;
   background-color: #A8A8A8;
   border: 2px solid black;
   clear: both;
-  margin-left: 91px;
+  margin-left: 40px;
   border-radius:12px;
 }
 
