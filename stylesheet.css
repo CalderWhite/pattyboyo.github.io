@@ -43,7 +43,9 @@ img {
 }
 
 button {
-  margin-top:500px;
+  position: fixed;
+  margin-top:230px;
+  margin-left:230px;
 }
 
 .topbar div img{
