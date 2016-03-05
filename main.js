@@ -13,7 +13,7 @@ drawName(myName, letterColors);
 bounceBubbles()
 
 $(document).ready(function() {
-   $("#fades").mouseenter(function() {
+   $("html").mouseenter(function() {
      $(this).fadeOut(200);
    } )
    $("#fades").mouseleave(function() {
