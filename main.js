@@ -15,7 +15,7 @@ bounceBubbles()
 $(document).ready(function() {
   $("#fades").hover(function() {
     $(this).fadeOut(200);
-    $(this).fadeIn(200);
+  
   }
   )
 }
