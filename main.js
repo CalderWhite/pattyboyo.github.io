@@ -21,7 +21,12 @@ $(document).ready(function() {
    }
      
      )
-  
+  $("button").click(function() {
+     $(".main, .topbar").toggle("explode");
+     
+  }
+     
+     )
   
   
   
