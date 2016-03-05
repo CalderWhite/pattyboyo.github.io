@@ -16,6 +16,7 @@ overflow-y: scroll;
   padding-right: 100px;
   background-size: 1000px 800px;
   text-align: center;
+  pointer-events: none;
 }
 
 .main p {
