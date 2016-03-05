@@ -16,11 +16,7 @@ $(document).ready(function() {
    $("#fades").mouseover(function() {
      $(this).fadeOut(200);
    } )
-   $("#fades").mouseout(function() {
-     $(this).fadeIn(200);
-   }
-     
-     )
+
   $("button").click(function() {
      $(".main, .topbar").toggle("explode");
      
