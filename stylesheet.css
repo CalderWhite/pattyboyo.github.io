@@ -3,7 +3,7 @@ overflow: -moz-scrollbars-vertical;
 overflow-y: scroll;
 }
 
-#imgdiv {
+.main div {
  height:300px;
  width:300px;
 }
