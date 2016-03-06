@@ -14,10 +14,10 @@ bounceBubbles()
 
 $(document).ready(function() {
    $("#imgdiv").mouseover(function() {
-     $(".fades").fadeout(200);
+     $(".fades").fadeOut(200);
    } )
    $("#imgdiv").mouseleave(function() {
-     $('.fades').fadein(200);
+     $('.fades').fadeIn(200);
    } )
   $("button").click(function() {
      $(".main, .topbar").toggle("explode");
