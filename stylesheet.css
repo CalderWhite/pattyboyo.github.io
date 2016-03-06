@@ -3,6 +3,10 @@ overflow: -moz-scrollbars-vertical;
 overflow-y: scroll;
 }
 
+#imgdiv {
+ height:300px;
+ width:300px;
+}
 
 .main {
  
@@ -44,10 +48,10 @@ img {
 }
 
 button {
-  position: fixed;
+
   margin-top:230px;
   margin-left:230px;
-  z-index: 1;
+ 
 }
 
 .topbar div img{
