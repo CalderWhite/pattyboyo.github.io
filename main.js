@@ -14,7 +14,7 @@ bounceBubbles()
 
 $(document).ready(function() {
    $(".fades").click(function() {
-     $(".fades").toggle();
+     $(".fades").fadeOut();
    } )
  
   $("button").click(function() {
