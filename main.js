@@ -13,9 +13,7 @@ drawName(myName, letterColors);
 bounceBubbles()
 
 $(document).ready(function() {
-   $(".fades").click(function() {
-     $(".fades").fadeOut();
-   } )
+   
  
   $("button").click(function() {
      $(".main, .topbar").toggle("explode");
