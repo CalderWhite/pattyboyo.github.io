@@ -3,9 +3,6 @@ overflow: -moz-scrollbars-vertical;
 overflow-y: scroll;
 }
 
-#fades:hover {
- opacity: 0;
-}
 
 .main {
  
