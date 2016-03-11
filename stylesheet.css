@@ -3,9 +3,8 @@ overflow: -moz-scrollbars-vertical;
 overflow-y: scroll;
 }
 
-#imgdiv {
- height:300px;
- width:300px;
+.fades:hover {
+ opacity: 0.1;
 }
 
 .main {
