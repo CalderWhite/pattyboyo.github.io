@@ -16,7 +16,7 @@ $(document).ready(function() {
    
  
   $("button").click(function() {
-     $(".main, .topbar").toggle("explode");
+     $(".main, .topbar, button").toggle("explode");
      
   }
      
