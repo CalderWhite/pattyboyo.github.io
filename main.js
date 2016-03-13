@@ -17,7 +17,7 @@ $(document).ready(function() {
  
   $("button").click(function() {
      $(".main, .topbar, button").toggle("explode");
-     $('body').delay(300).append("<p>y'ellow</p>")
+     $('body').delay(800).append("<p>y'ellow</p>")
      
      
   })
