@@ -17,7 +17,7 @@ $(document).ready(function() {
  
   $("button").click(function() {
      $(".main, .topbar, button").toggle("explode");
-     $('body').delay(8100).append("<img src'patrick.png'>,<form>Secret Password: <br><input type='text' name='password'> </form>)
+     $('body').delay(8100).append("<img src'patrick.png'>,<form>Secret Password: <br><input type='text' name='password'> </form>")
      
      
   })
