@@ -2,7 +2,7 @@
 <body>
 
  <?php 
- echo 'yo'
+ echo 'yo';
    
    
       ?>
