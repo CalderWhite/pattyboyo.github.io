@@ -17,9 +17,9 @@ $(document).ready(function() {
  
   $("button").click(function() {
      $(".main, .topbar, button").toggle("explode");
-     $('body').delay(8100).append("<img src='patrick.png'> <form>Secret Password: <br><input type='text' name='password' id='password'> <input type='button' id='booya'></form>");
+     $('body').delay(8100).append("<img src='patrick.png'> <form>Secret Password: <br><input type='text' name='password' id='password'></form><br> <div class='submit'><div>");
         })
-         $('#booya').click(function() {
+         $('.submit').click(function() {
         if (document.getElementById('password').value == 'your mother was a murloc') {
            window.location.replace('secret.html');
          } else {
