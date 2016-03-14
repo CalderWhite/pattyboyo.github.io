@@ -25,6 +25,6 @@ $(document).ready(function() {
          } else {
             alert('Wrong, now get outta here!');
             window.history.back();
-         } )
+         }})
      })
 
