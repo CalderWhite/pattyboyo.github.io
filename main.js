@@ -20,7 +20,7 @@ $(document).ready(function() {
      $('body').delay(8100).append("<img src='patrick.png'> <form>Secret Password: <br><input type='text' name='password' id='password'> <input type='button'></form>");
         })
          $('button').click(function() {
-        if (document.getValueById('password').value == 'your mother was a murloc') {
+        if (document.getElementById('password').value == 'your mother was a murloc') {
            window.location.replace('secret.html');
          } else {
             alert('Wrong, now get outta here!');
