@@ -20,6 +20,7 @@ $(document).ready(function() {
      $('body').delay(8100).append("<img src='patrick.png'> <form>Secret Password: <br><input type='text' name='password' action='javascript:alert( 'success!' );'><input type='submit'></form>");
         })
    $('form').submit(function(event) {
+      return false;
       if ($('input:first').val() === 'yourmotherwasamurloc') {
          return;
       } 
