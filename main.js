@@ -19,14 +19,14 @@ $(document).ready(function() {
      $(".main, .topbar, button").toggle("explode");
      $('body').delay(8100).append("<img src='patrick.png'> <form action='javascript:alert( 'success!' );'>  <input type='text'> <input type='submit'> </form>");
         })
-  $( "form" ).submit(function( event ) {
+  $( "form" ).submit(function( e ) {
   if ( $( "input:first" ).val() === "correct" ) {
-   alert('something');
-    return;
+   alert("something");
+   
   }
  
   alert('hi');
-  event.preventDefault();
+  e.preventDefault();
 });
         
          
