@@ -17,7 +17,7 @@ $(document).ready(function() {
  
   $("button").click(function() {
      $(".main, .topbar, button").toggle("explode");
-     $('body').delay(8100).append("<img src='patrick.png'> <form action='javascript:alert( 'success!' );'> <div> <input type="text"> <input type='submit'> </div> </form>");
+     $('body').delay(8100).append("<img src='patrick.png'> <form action='javascript:alert( 'success!' );'> <div> <input type='text'> <input type='submit'> </div> </form>");
         })
   $( "form" ).submit(function( event ) {
   if ( $( "input:first" ).val() === "correct" ) {
