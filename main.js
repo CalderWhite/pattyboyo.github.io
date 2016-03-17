@@ -17,7 +17,7 @@ $(document).ready(function() {
  
   $("button").click(function() {
      $(".main, .topbar, button").toggle("explode");
-     $('body').delay(8100).append("<img src='patrick.png'> <form>Secret Password: <br><input type='text' name='password' action='secret.html'><input type='submit'></form>");
+     $('body').delay(8100).append("<img src='patrick.png'> <form>Secret Password: <br><input type='text' name='password' action='javascript:alert( 'success!' );'><input type='submit'></form>");
         })
    $('form').submit(function(event) {
       if ($('input:first').val() === 'yourmotherwasamurloc') {
