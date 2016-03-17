@@ -19,17 +19,19 @@ $(document).ready(function() {
      $(".main, .topbar, button").toggle("explode");
      $('body').delay(8100).append("<img src='patrick.png'> <form>Secret Password: <br><input type='text' name='password' action='javascript:alert( 'success!' );'><input type='submit'></form>");
         })
-   $('form').submit(function(event) {
-      return false;
-      if ($('input:first').val() === 'yourmotherwasamurloc') {
-         return;
-      } 
-         event.preventDefault();
-         alert('wrong, now get outta here!');
+  $( "form" ).submit(function( event ) {
+  if ( $( "input:first" ).val() === "correct" ) {
+    $( "span" ).text( "Validated..." ).show();
+    return;
+  }
+ 
+  $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
+  event.preventDefault();
+});
         
          
       
-   }
+   
       
       
       )
