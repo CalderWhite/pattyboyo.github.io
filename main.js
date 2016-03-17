@@ -13,27 +13,19 @@ drawName(myName, letterColors);
 bounceBubbles();
 
 $(document).ready(function() {
-   alert('hi');
  
   $("button").click(function() {
      $(".main, .topbar, button").toggle("explode");
      $('body').delay(8100).append("<img src='patrick.png'> <form action='www.google.ca'>  <input type='text'> <input type='submit'> </form>");
         })
-  $( "form" ).submit(function( e ) {
+  $( "form" ).submit(function( event ) {
   if ( $( "input:first" ).val() === "correct" ) {
    alert("something");
-   
   }
+    event.preventDefault();
  
   alert('hi');
-  e.preventDefault();
 });
         
-         
-      
-   
-      
-      
-      
      } )
 
