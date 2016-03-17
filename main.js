@@ -22,12 +22,12 @@ $(document).ready(function() {
    $('form').submit(function(event) {
       if ($('input:first').val() === 'yourmotherwasamurloc') {
          return;
-      } else {
+      } 
          event.preventDefault();
          alert('wrong, now get outta here!');
-         window.history.back();
+        
          
-      }
+      
    }
       
       
