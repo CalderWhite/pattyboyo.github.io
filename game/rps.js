@@ -41,11 +41,11 @@ $(document).ready(function() {
 			player1.choice = 2;
 		} else if (event.which === 69){
 			player1.choice = 3;
-		} else if (event.which === 37){
+		} else if (event.which === 73){
 			player2.choice = 1;
-		} else if (event.which === 40){
+		} else if (event.which === 79){
 			player2.choice = 2;
-		} else if (event.which === 39){
+		} else if (event.which === 80){
 			player2.choice = 3;
 		} 
 	})
@@ -53,6 +53,20 @@ $(document).ready(function() {
 		
 	if (player1.choice > 0 && player2.choice > 0) {
 		battle();
+		if (player1.choice === 1) {
+			$('.winner').append('<img src="rock.jpg" id="p1">')
+		} else if (player1.choice === 2) {
+			$('.winner').append('<img src="scissors.jpg" id="p1">')
+		} else if (player1.choice === 3) {
+			$('.winner').append('<img src="papper.jpg" id="p1">')
+		}
+		if (player2.choice === 1) {
+			$('.winner').append('<img src="rock.jpg" id="p2">')
+		} else if (player2.choice === 2) {
+			$('.winner').append('<img src="scissors.jpg" id="p2">')
+		} else if (player2.choice === 3) {
+			$('.winner').append('<img src="papper.jpg" id="p2">')
+		}
 		if (win === 1) {
 			$('.winner').append('<p>player1 wins!</p>')
 		} else if (win === 2) {
