@@ -5,6 +5,8 @@ overflow-y: scroll;
 
 #submit {
  margin-top:0px;
+ margin-left:0px;
+ height:40;
 }
 
 .main {
