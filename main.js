@@ -20,6 +20,7 @@ $(document).ready(function() {
         })
  $( "form" ).submit(function( event ) {
   event.preventDefault();
+  return false;
   if ( $( "input:first" ).val() === "correct" ) {
     $( "span" ).text( "Validated..." ).show();
     return;
