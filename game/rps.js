@@ -61,14 +61,14 @@ $(document).ready(function() {
 		} else if (player1.choice === 2) {
 			$('.winner').append('<img src="scissors.jpg" id="p1">')
 		} else if (player1.choice === 3) {
-			$('.winner').append('<img src="papper.jpg" id="p1">')
+			$('.winner').append('<img src="paper.jpg" id="p1">')
 		}
 		if (player2.choice === 1) {
 			$('.winner').append('<img src="rock.jpg" id="p2">')
 		} else if (player2.choice === 2) {
 			$('.winner').append('<img src="scissors.jpg" id="p2">')
 		} else if (player2.choice === 3) {
-			$('.winner').append('<img src="papper.jpg" id="p2">')
+			$('.winner').append('<img src="paper.jpg" id="p2">')
 		}
 		if (win === 1) {
 			$('.winner').append('<p id="win">player1 wins!</p>')
