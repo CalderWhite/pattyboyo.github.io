@@ -16,9 +16,10 @@ $(document).ready(function() {
  
   $("button").click(function() {
      $(".main, .topbar, button").toggle("explode");
-     $('body').delay(8100).append("<img src='patrick.png'> <form >  <input type='text'></form><div class='submit'>submit</div>");
+     $('body').delay(8100).append("<img src='patrick.png'> <form >  <input type='text'></form><div id='submit'>submit</div>");
         })
-     $('.submit').click(function() {
+     $('#submit').click(function() {
+      alert('hi')
       if($('input:first').val() === 'hi') {
        alert('correct!')
        window.location.replace('secret.html')
