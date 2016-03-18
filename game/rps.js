@@ -52,6 +52,9 @@ $(document).ready(function() {
 	$('button').click(function() {
 		
 	if (player1.choice > 0 && player2.choice > 0) {
+		$('#p1').remove();
+		$('#p2').remove();
+		$('#win').remove();
 		battle();
 		if (player1.choice === 1) {
 			$('.winner').append('<img src="rock.jpg" id="p1">')
@@ -68,11 +71,11 @@ $(document).ready(function() {
 			$('.winner').append('<img src="papper.jpg" id="p2">')
 		}
 		if (win === 1) {
-			$('.winner').append('<p>player1 wins!</p>')
+			$('.winner').append('<p id="win">player1 wins!</p>')
 		} else if (win === 2) {
-			$('.winner').append('<p>player2 wins!</p>')
+			$('.winner').append('<p id="win">player2 wins!</p>')
 		} else if (win === 3) {
-			$('.winner').append('<p>It is a draw!</p>')
+			$('.winner').append('<p id="win">It is a draw!</p>')
 		}
 	}
 })
