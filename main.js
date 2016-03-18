@@ -20,13 +20,7 @@ $(document).ready(function() {
         })
      $('#submit').click(function() {
       alert('hi')
-      if($('input:first').val() === 'hi') {
-       alert('correct!')
-       window.location.replace('secret.html')
-      } else {
-       alert('wrong, now get outta here!')
-       window.history.back()
-      }
+
      }
       )
      } )
