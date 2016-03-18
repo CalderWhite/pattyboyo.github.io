@@ -18,15 +18,5 @@ $(document).ready(function() {
      $(".main, .topbar, button").toggle("explode");
      $('body').delay(8100).append("<img src='patrick.png'> <form >  <input type='text'> <input type='submit'> </form>");
         })
- $( "form" ).submit(function( event ) {
-  event.preventDefault();
-  return false;
-  if ( $( "input:first" ).val() === "correct" ) {
-    $( "span" ).text( "Validated..." ).show();
-    return;
-  }
  
-  $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
-  
-});
      } )
