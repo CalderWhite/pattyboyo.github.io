@@ -19,12 +19,13 @@ $(document).ready(function() {
      $('body').delay(8100).append("<img src='patrick.png'> <form >  <input type='text'> <input type='submit'> </form>");
         })
  $( "form" ).submit(function( event ) {
+  event.preventDefault();
   if ( $( "input:first" ).val() === "correct" ) {
     $( "span" ).text( "Validated..." ).show();
     return;
   }
  
   $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
-  event.preventDefault();
+  
 });
      } )
