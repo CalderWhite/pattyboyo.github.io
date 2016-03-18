@@ -18,12 +18,15 @@ $(document).ready(function() {
      $(".main, .topbar, button").toggle("explode");
      $('body').delay(8100).append("<img src='patrick.png'> <form >  <input type='text'> <input type='submit'> </form>");
         })
-  $( "form" ).submit(function(event) {
-    event.preventDefault();
+ $( "form" ).submit(function( event ) {
   if ( $( "input:first" ).val() === "correct" ) {
-   alert("something");
+    $( "span" ).text( "Validated..." ).show();
+    return;
   }
-  alert('hi');
+ 
+  $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
+  event.preventDefault();
+});
 });
         
      } )
