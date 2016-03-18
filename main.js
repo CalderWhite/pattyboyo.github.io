@@ -27,7 +27,4 @@ $(document).ready(function() {
   $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
   event.preventDefault();
 });
-});
-        
      } )
-
