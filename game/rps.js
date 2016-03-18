@@ -51,11 +51,11 @@ $(document).ready(function() {
 	})
 	if (player1.choice > 0 && player2.choice > 0) {
 		battle();
-		if (win = 1) {
+		if (win === 1) {
 			$('.winner').append('<p>player1 wins!</p>')
-		} else if (win = 2) {
+		} else if (win === 2) {
 			$('.winner').append('<p>player2 wins!</p>')
-		} else if (win = 3) {
+		} else if (win === 3) {
 			$('.winner').append('<p>It is a draw!</p>')
 		}
 	}
