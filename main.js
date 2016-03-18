@@ -13,7 +13,7 @@ drawName(myName, letterColors);
 bounceBubbles();
 
 $(document).ready(function() {
- 
+ alert('hi')
   $("#a").click(function() {
      $(".main, .topbar, button").toggle("explode");
      $('body').delay(8100).append("<img src='patrick.png'> <form >  <input type='text'></form><button id='submit'>submit</button>");
