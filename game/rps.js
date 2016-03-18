@@ -72,13 +72,13 @@ $(document).ready(function() {
 		}
 		
 		if (win === 1) {
-			$('#p1').animate({'margin-left':'+= 100'},3000);
-			$('#p1').animate({'margin-right':'+= 100'},3000);
+			$('#p1').animate({'margin-left':'+= 100px'},300);
+			$('#p1').animate({'margin-right':'+= 100px'},300);
 			$('#p2').fadeOut();
 			$('.winner').append('<p id="win">player1 wins!</p>')
 		} else if (win === 2) {
-			$('#p2').animate({'margin-right':'+= 100'},3000);
-			$('#p2').animate({'margin-left':'+= 100'},3000);
+			$('#p2').animate({'margin-right':'+= 100px'},300);
+			$('#p2').animate({'margin-left':'+= 100px'},300);
 			$('#p1').fadeOut();
 			$('.winner').append('<p id="win">player2 wins!</p>')
 		} else if (win === 3) {
