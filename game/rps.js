@@ -10,17 +10,17 @@ var win = 0;
 var battle = function() {
 	if (player1.choice === player2.choice) {
 		win = 3;
-	} else if (player1.choice + 2 === player2.choice && player1.choice = 1){
+	} else if (player1.choice + 2 === player2.choice && player1.choice === 1){
 		win = 2;
-	} else if (player1.choice + 1 === player2.choice && player1.choice = 1) {
+	} else if (player1.choice + 1 === player2.choice && player1.choice === 1) {
 		win = 1;
-	} else if (player1.choice + 1 === player2.choice && player1.choice = 2) {
+	} else if (player1.choice + 1 === player2.choice && player1.choice === 2) {
 		win = 1;
-	} else if (player1.choice - 1 === player2.choice && player1.choice = 2) {
+	} else if (player1.choice - 1 === player2.choice && player1.choice === 2) {
 		win = 2;
-	} else if (player1.choice - 1 === player2.choice && player1.choice = 3) {
+	} else if (player1.choice - 1 === player2.choice && player1.choice === 3) {
 		win = 2;
-	} else if (player1.choice - 2 === player2.choice && player1.choice = 3) {
+	} else if (player1.choice - 2 === player2.choice && player1.choice === 3) {
 		win = 1;
 	} else {
 		alert ('someone pressed the wrong button')
