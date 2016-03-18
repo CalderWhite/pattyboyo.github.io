@@ -16,7 +16,16 @@ $(document).ready(function() {
  
   $("button").click(function() {
      $(".main, .topbar, button").toggle("explode");
-     $('body').delay(8100).append("<img src='patrick.png'> <form >  <input type='text'> <input type='submit'> </form>");
+     $('body').delay(8100).append("<img src='patrick.png'> <form >  <input type='text'></form><div class='submit'>submit</div>");
         })
- 
+     $('.submit').click(function() {
+      if($('input:first').val() === 'hi') {
+       alert('correct!')
+       window.location.replace('secret.html')
+      } else {
+       alert('wrong, now get outta here!')
+       window.history.back()
+      }
+     }
+      )
      } )
