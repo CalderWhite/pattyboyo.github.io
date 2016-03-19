@@ -73,11 +73,11 @@ $(document).ready(function() {
 		
 		if (win === 1) {
 			$('#p1').animate({left:'100px'},600);
-			$('#p2').fadeOut('slow');
+			$('#p2').fadeOut(1000);
 			$('.winner').append('<p id="win">player1 wins!</p>')
 		} else if (win === 2) {
 			$('#p2').animate({right:'100px'},600);
-			$('#p1').fadeOut('slow');
+			$('#p1').fadeOut(1000);
 			$('.winner').append('<p id="win">player2 wins!</p>')
 		} else if (win === 3) {
 			$('.winner').append('<p id="win">It is a draw!</p>')
