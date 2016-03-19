@@ -37,15 +37,15 @@ $(document).ready(function() {
 	$(document).keydown(function(event) {
 		if (event.which === 81) {
 			player1.choice = 1;
-		} else if (event.which === 87){
-			player1.choice = 2;
 		} else if (event.which === 69){
+			player1.choice = 2;
+		} else if (event.which === 87){
 			player1.choice = 3;
 		} else if (event.which === 73){
 			player2.choice = 1;
-		} else if (event.which === 79){
-			player2.choice = 2;
 		} else if (event.which === 80){
+			player2.choice = 2;
+		} else if (event.which === 79){
 			player2.choice = 3;
 		} 
 	})
