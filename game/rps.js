@@ -72,11 +72,11 @@ $(document).ready(function() {
 		}
 		
 		if (win === 1) {
-			$('#p1').animate({left:'150px'},500);
+			$('#p1').animate({left:'150px'},600);
 			$('#p2').fadeOut('slow');
 			$('.winner').append('<p id="win">player1 wins!</p>')
 		} else if (win === 2) {
-			$('#p2').animate({right:'150px'},500);
+			$('#p2').animate({right:'150px'},600);
 			$('#p1').fadeOut('slow');
 			$('.winner').append('<p id="win">player2 wins!</p>')
 		} else if (win === 3) {
