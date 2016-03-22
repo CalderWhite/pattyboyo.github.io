@@ -3,10 +3,10 @@ var sudoku = []
 
 var initialize = function() {
 	for(var i = 1;i < 82;i++) {
-		if ($(input:nth-child(i)).hasClass('orginal') === false) {
+		if ($('input:nth-child(i)').hasClass('orginal') === false) {
 			sudoku.push(0)
 		} else {
-			var valueTown = $(input:nth-child(i)).val()
+			var valueTown = $('input:nth-child(i)').val()
 			sudoku.push(parseInt(valueTown))
 		}
 	}
