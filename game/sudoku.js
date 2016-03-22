@@ -336,10 +336,10 @@ $(document).ready(function() {
 	for (var i = 1; i < 82; i++) {
 	$('.inputs').append('<input type="number">')
 	}
-	$('enter').click(function() {
+	$('.enter').click(function() {
 		enterNumbers()
 	})
-	$('start').click(function() {
+	$('.start').click(function() {
 		initialize()
 		var whileloop = true;
 		while(whileloop === true) {
