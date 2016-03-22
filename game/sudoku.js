@@ -333,7 +333,7 @@ var enterNumbers = function() {
 }
 
 $(document).ready(function() {
-	for (var i = 1; i < 82; i++;) {
+	for (var i = 1; i < 82; i++) {
 	$('.inputs').append('<input type="number">')
 	}
 	$('enter').click(function() {
