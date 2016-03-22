@@ -67,7 +67,7 @@ var simpleColumn = function(a) {
 
 var rowCheck = function(a) {
 	if (a % 9 <= 1) {
-		for (var i = 1;i<10;i++;) {
+		for (var i = 1;i<10;i++) {
 			if (sudoku[a] === sudoku[i]) {
 				return false;
 				{break;}
@@ -86,7 +86,7 @@ var rowCheck = function(a) {
 			}
 		}
 	} else if (a % 9 <= 3) {
-		for (var i = 19;i<28;i++;) {
+		for (var i = 19;i<28;i++) {
 			if (sudoku[a] === sudoku[i]) {
 				return false;
 				{break;}
@@ -95,7 +95,7 @@ var rowCheck = function(a) {
 			}
 		}
 	} else if (a % 9 <= 4) {
-		for (var i = 28;i<37;i++;) {
+		for (var i = 28;i<37;i++) {
 			if (sudoku[a] === sudoku[i]) {
 				return false;
 				{break;}
@@ -104,7 +104,7 @@ var rowCheck = function(a) {
 			}
 		}
 	} else if (a % 9 <= 5) {
-		for (var i = 37;i<46;i++;) {
+		for (var i = 37;i<46;i++) {
 			if (sudoku[a] === sudoku[i]) {
 				return false;
 				{break;}
@@ -113,7 +113,7 @@ var rowCheck = function(a) {
 			}
 		}
 	} else if (a % 9 <= 6) {
-		for (var i = 46;i<55;i++;) {
+		for (var i = 46;i<55;i++) {
 			if (sudoku[a] === sudoku[i]) {
 				return false;
 				{break;}
@@ -122,7 +122,7 @@ var rowCheck = function(a) {
 			}
 		}
 	} else if (a % 9 <= 7) {
-		for (var i = 55;i<64;i++;) {
+		for (var i = 55;i<64;i++) {
 			if (sudoku[a] === sudoku[i]) {
 				return false;
 				{break;}
@@ -131,7 +131,7 @@ var rowCheck = function(a) {
 			}
 		}
 	} else if (a % 9 <= 8) {
-		for (var i = 64;i<73;i++;) {
+		for (var i = 64;i<73;i++) {
 			if (sudoku[a] === sudoku[i]) {
 				return false;
 				{break;}
@@ -140,7 +140,9 @@ var rowCheck = function(a) {
 			}
 		}
 	} else if (a % 9 <= 9) {
-		for (var i = 73;i<82;i++;) {
+		for (var i = 73;i<82;i++
+		
+		) {
 			if (sudoku[a] === sudoku[i]) {
 				return false;
 				{break;}
@@ -158,7 +160,7 @@ var columnCheck = function(a) {
 		if (a ===1) {
 			return true;
 		} else {
-		for (var i = 1;i<10;i++;) {
+		for (var i = 1;i<10;i++) {
 			if (sudoku[a] === sudoku[i*9+1] ) {
 				return false;
 
@@ -170,7 +172,7 @@ var columnCheck = function(a) {
 		if (a ===2) {
 			return true;
 		} else {
-		for (var i = 1;i<10;i++;) {
+		for (var i = 1;i<10;i++) {
 			if (sudoku[a] === sudoku[i*9+2]) {
 				return false;
 			} else {
@@ -181,7 +183,7 @@ var columnCheck = function(a) {
 		if (a ===3) {
 			return true;
 		} else {
-		for (var i = 1;i<10;i++;) {
+		for (var i = 1;i<10;i++) {
 			if (sudoku[a] === sudoku[i*9+3]) {
 				return false;
 			} else {
@@ -192,7 +194,7 @@ var columnCheck = function(a) {
 		if (a ===4) {
 			return true;
 		} else {
-		for (var i = 1;i<10;i++;) {
+		for (var i = 1;i<10;i++) {
 			if (sudoku[a] === sudoku[i*9+4]) {
 				return false;
 			} else {
@@ -203,7 +205,7 @@ var columnCheck = function(a) {
 		if (a ===5) {
 			return true;
 		} else {
-		for (var i = 1;i<10;i++;) {
+		for (var i = 1;i<10;i++) {
 			if (sudoku[a] === sudoku[i*9+5]) {
 				return false;
 			} else {
@@ -214,7 +216,7 @@ var columnCheck = function(a) {
 		if (a ===6) {
 			return true;
 		} else {
-		for (var i = 1;i<10;i++;) {
+		for (var i = 1;i<10;i++) {
 			if (sudoku[a] === sudoku[i*9+6]) {
 				return false;
 			} else {
@@ -225,7 +227,7 @@ var columnCheck = function(a) {
 		if (a ===7) {
 			return true;
 		} else {
-		for (var i = 1;i<10;i++;) {
+		for (var i = 1;i<10;i++) {
 			if (sudoku[a] === sudoku[i*9+7]) {
 				return false;
 			} else {
@@ -236,7 +238,7 @@ var columnCheck = function(a) {
 		if (sudoku[a] ===8) {
 			return true;
 		} else {
-		for (var i = 1;i<10;i++;) {
+		for (var i = 1;i<10;i++) {
 			if (sudoku[a] === sudoku[i*9+8]) {
 				return false;
 			} else {
@@ -244,7 +246,9 @@ var columnCheck = function(a) {
 			}
 		}}
 	} else if (a % 9 === 0) {
-		for (var i = 1;i<10;i++;) {
+		for (var i = 1;i<10;i++
+		
+		) {
 			if (sudoku[a] === sudoku[i*9]) {
 				return false;
 			} else {
