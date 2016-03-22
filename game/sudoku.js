@@ -326,8 +326,8 @@ var boxCheck = function(a) {
 
 var enterNumbers = function() {
 	for(var i = 1; 1 < 82; i++) {
-	  if ($(input:nth-child(i)).length == 0) {
-		  $(input:nth-child(i)).addClass('original');
+	  if ($('input:nth-child(i)').length == 0) {
+		  $('input:nth-child(i)').addClass('original');
 	  }
 	}
 }
