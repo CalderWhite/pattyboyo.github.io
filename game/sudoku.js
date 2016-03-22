@@ -2,11 +2,11 @@
 var sudoku = []
 
 var initialize = function() {
-	for(var i = 1;i < 82;i++) {
-		if ($('input:nth-child(i)').hasClass('orginal') === false) {
+	for(var i = 0;i < 81;i++) {
+		if ($('input').eq(i).hasClass('orginal') === false) {
 			sudoku.push(0)
 		} else {
-			var valueTown = $('input:nth-child(i)').val()
+			var valueTown = $('input').eq(i).val()
 			sudoku.push(parseInt(valueTown))
 		}
 	}
@@ -325,9 +325,9 @@ var boxCheck = function(a) {
 }
 
 var enterNumbers = function() {
-	for(var i = 1; 1 < 82; i++) {
-	  if ($('input:nth-child(i)').length == 0) {
-		  $('input:nth-child(i)').addClass('original');
+	for(var i = 0; 1 < 81; i++) {
+	  if ($('input').eq(i).length == 0) {
+		  $('input').eq(i).addClass('original');
 	  }
 	}
 }
