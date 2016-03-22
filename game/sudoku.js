@@ -325,7 +325,7 @@ var boxCheck = function(a) {
 }
 
 var enterNumbers = function() {
-	for(var i = 0; 1 < 81; i++) {
+	for(var i = 0; i < 81; i++) {
 	  if ($('input').eq(i).length == 0) {
 		  
 		  console.log('hi');
