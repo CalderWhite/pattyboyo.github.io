@@ -77,7 +77,7 @@ var rowCheck = function(a) {
 			}
 		}
 	} else if (a % 9 <= 2) {
-		for (var i = 10;i<19;i++;) {
+		for (var i = 10;i<19;i++) {
 			if (sudoku[a] === sudoku[i]) {
 				return false;
 				{break;}
