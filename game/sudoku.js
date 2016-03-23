@@ -3,11 +3,11 @@ var sudoku = []
 
 var initialize = function() {
 	for(var i = 0;i < 81;i++) {
-		if ($('input').eq(i).hasClass('orginal') === false) {
+		if ($('input').eq(i).hasClass('orginal') == false) {
 			sudoku.push(0)
 		} else {
-			var valueTown = $('input').eq(i).val()
-			sudoku.push(parseInt(valueTown))
+			
+			sudoku.push(parseInt($('input').eq(i).val()))
 		}
 	}
 }
@@ -338,6 +338,7 @@ $(document).ready(function() {
 	}
 	$('.enter').click(function() {
 		enterNumbers()
+		initialize()
 	})
 	$('.start').click(function() {
 		initialize()
