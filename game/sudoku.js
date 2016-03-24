@@ -3,7 +3,7 @@ var sudoku = []
 
 var initialize = function() {
 	for(var i = 0;i < 81;i++) {
-		if ($('input').eq(i).hasClass('orginal') == false) {
+		if ($('input').eq(i).val().length === 0 {
 			sudoku.push(0)
 		} else {
 			
