@@ -332,6 +332,23 @@ var enterNumbers = function() {
 	}
 }
 
+
+function solve() {
+	for (var i = 0;i < 82; i++) {
+		sudoku[i] = sudoku[i] + 1;
+		if (sudoku[i] === 10) {
+			sudoku[i] = 0;
+			i - 2;
+		} else if (rowCheck(i) && columnCheck(i) && boxCheck(i) && i === 81){
+			{break;}
+		
+		}
+		else if (rowCheck(i) && columnCheck(i) && boxCheck(i)){
+		} else {
+			i = i - 2;
+		}
+	} }
+		
 $(document).ready(function() {
 	for (var i = 1; i < 82; i++) {
 	$('.inputs').append('<input type="text">')
@@ -342,22 +359,8 @@ $(document).ready(function() {
 	})
 	$('.start').click(function() {
 		initialize()
-		var whileloop = true;
-		while(whileloop === true) {
-		for (var i = 0;i < 82; i++) {
-			sudoku[i] + 1;
-			if (sudoku[i] === 10) {
-				sudoku[i] = 0;
-				i - 2;
-			} else if (rowCheck(i) && columnCheck(i) && boxCheck(i) && i === 81){
-				{break;}
-				whileloop = false;
-			}
-			else if (rowCheck(i) && columnCheck(i) && boxCheck(i)){
-			} else {
-				i - 2;
-			}
-		} }
+
+		}
 		$('done').append('sudoku')
 	}
 
