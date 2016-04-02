@@ -360,7 +360,7 @@ $(document).ready(function() {
 	$('.start').click(function() {
 		initialize()
 
-		}
+		} )
 		$('done').append('sudoku')
 	}
 
