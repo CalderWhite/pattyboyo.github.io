@@ -358,8 +358,8 @@ $(document).ready(function() {
 		initialize()
 	})
 	$('.start').click(function() {
-		initialize()
-		$('.done').append('sudoku')
+		solve()
+		
 		} )
 	
 	}
