@@ -49,7 +49,7 @@ $(document).ready(function() {
 			player2.choice = 3;
 		} 
 	})
-	$('button').click(function() {
+	$('#rps').click(function() {
 		
 	if (player1.choice > 0 && player2.choice > 0) {
 		$('#p1').remove();
