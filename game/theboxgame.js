@@ -4,6 +4,7 @@ function building(attack,health) {
   this.stages = stages,
 }
 
+
 var gun = new building(1,1)
 var starting = new building(0,1)
 var machinegun = new building(2,3)
@@ -42,45 +43,50 @@ function theboxgame() {
     menu()
     $('#menu').append('<h1>Player 2 Wins! Now make you choice!</h1>');
     if (player2.inventory.indexOf('gun') == -1) {
-      $('menu').append('<img src="gun.png">')
+      $('menu').append('<img src="image/gun.png">')
     } else if (player2.inventory.indexOf('gun') > -1 && player2.inventory.indexOf('triple') == -1) {
-      $('menu').append('<img src="triple.png">')
+      $('menu').append('<img src="image/triple.png">')
     }
     if (player2.inventory.indexOf('starting') == -1 && player2.inventory.indexOf('machinegun') == -1 && player2.inventory.indexOf('mini') == -1) {
-      $('menu').append('<img src="starting.png">')
+      $('menu').append('<img src="image/starting.png">')
     } else if (player2.inventory.indexOf('starting') > -1 && player2.inventory.indexOf('machinegun') == -1) {
-      $('menu').append('<img src="machinegun.png">')
+      $('menu').append('<img src="image/machinegun.png">')
     } else if (player2.inventory.indexOf('machinegun') > -1 && player2.inventory.indexOf('starting') == -1 && player2.inventory.indexOf('mini') == -1) {
-      $('menu').append('<img src="mini.png">')
+      $('menu').append('<img src="image/mini.png">')
     }
     if (player2.inventory.indexOf('flag') == -1 && player2.inventory.indexOf('triplef') == -1) {
-      $('menu').append('<img src="flag.png">')
+      $('menu').append('<img src="image/flag.png">')
     } else if (player2.inventory.indexOf('flag') > -1 && player2.inventory.indexOf('triplef') == -1) {
-      $('menu').append('<img src="triplef.png">')
+      $('menu').append('<img src="image/triplef.png">')
+    }
+    if (player2.inventory.indexOf('gun') > -1|| player2.inventory.indexOf('machinegun') > -1|| player2.inventory.indexOf('mini') > -1|| player2.inventory.indexOf('triple') > -1) {
+        $('#menu').append('<img src="image/attack.png">')
     }
   } else if (battle === 1) {
     menu()
     $('#menu').append('<h1>Player 1 Wins! Now make you choice!</h1>');
     if (player1.inventory.indexOf('gun') == -1) {
-      $('menu').append('<img src="gun.png">')
+      $('menu').append('<img src="image/gun.png">')
     } else if (player1.inventory.indexOf('gun') > -1 && player1.inventory.indexOf('triple') == -1) {
-      $('menu').append('<img src="triple.png">')
+      $('menu').append('<img src="image/triple.png">')
     }
     if (player1.inventory.indexOf('starting') == -1 && player1.inventory.indexOf('machinegun') == -1 && player1.inventory.indexOf('mini') == -1) {
-      $('menu').append('<img src="starting.png">')
+      $('menu').append('<img src="image/starting.png">')
     } else if (player1.inventory.indexOf('starting') > -1 && player1.inventory.indexOf('machinegun') == -1) {
-      $('menu').append('<img src="machinegun.png">')
+      $('menu').append('<img src="image/machinegun.png">')
     } else if (player1.inventory.indexOf('machinegun') > -1 && player1.inventory.indexOf('starting') == -1 && player1.inventory.indexOf('mini') == -1) {
-      $('menu').append('<img src="mini.png">')
+      $('menu').append('<img src="image/mini.png">')
     }
     if (player1.inventory.indexOf('flag') == -1 && player1.inventory.indexOf('triplef') == -1) {
-      $('menu').append('<img src="flag.png">')
+      $('menu').append('<img src="image/flag.png">')
     } else if (player1.inventory.indexOf('flag') > -1 && player1.inventory.indexOf('triplef') == -1) {
-      $('menu').append('<img src="triplef.png">')
+      $('menu').append('<img src="image/triplef.png">')
     }
+    if (player1.inventory.indexOf('gun') > -1|| player1.inventory.indexOf('machinegun') > -1|| player1.inventory.indexOf('mini') > -1|| player1.inventory.indexOf('triple') > -1) {
+        $('#menu').append('<img src="image/attack.png">')
   }
   
-  $('#menu').append('<img src="attack.png">')
+  
   
 }
 
