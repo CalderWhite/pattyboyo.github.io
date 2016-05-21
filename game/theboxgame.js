@@ -84,6 +84,9 @@ function theboxgame() {
     }
     if (player1.inventory.indexOf('gun') > -1|| player1.inventory.indexOf('machinegun') > -1|| player1.inventory.indexOf('mini') > -1|| player1.inventory.indexOf('triple') > -1) {
         $('#menu').append('<img src="image/attack.png">')
+    
+        
+
   }
   
   
