@@ -38,7 +38,7 @@ function menuInit(player) {
        if (player.inventory.include(stash[i]) {
           $('#menu').append(stash[i].image)
     }
-    }
+    
  };
 
 function playerTurn(player) {
