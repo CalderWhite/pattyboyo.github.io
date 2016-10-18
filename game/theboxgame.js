@@ -32,7 +32,7 @@ function menuInit(player) {
        if (player.inventory.include(stash[i]) {
     } else {
           $('#menu').append(stash[i].image)
-       }
+       } };
    $('#menu').append('<p> attack </p>')
    for (i = 0;i < 2; i++) {
        if (player.inventory.include(stash[i]) {
