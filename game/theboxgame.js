@@ -30,6 +30,7 @@ function menuInit(player) {
   $('#menu').prepend('<p> build </p>')
   for (i = 0;i < 2; i++) {
        if (player.inventory.include(stash[i]) {
+           console.log('jasdkfdsa');
     } else {
           $('#menu').append(stash[i].image)
        } };
