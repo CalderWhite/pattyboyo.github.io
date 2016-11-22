@@ -6,20 +6,22 @@ body {
  border-radius: 50%;
  background-color: white;
  display:none;
- width:100px;
- height:100px;
+ width:200px;
+ height:200px;
+ position:absolute;
+ top:400;
 }
 
 .pop:nth-child(1) {
  left:0px;
 }
 .pop:nth-child(2) {
- left:101px;
+ left:250px;
 }
 .pop:nth-child(3) {
- left:202px;
+ left:500px;
 }
 .pop:nth-child(4) {
- left:303px;
+ left:750px;
 }
 
