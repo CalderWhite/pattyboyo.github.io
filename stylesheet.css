@@ -3,7 +3,23 @@ body {
 }
 
 .pop {
- border-radius: 100%;
+ border-radius: 50%;
  background-color: white;
  display:none;
+ width:100px;
+ height:100px;
 }
+
+.pop:nth-child(1) {
+ left:0px;
+}
+.pop:nth-child(2) {
+ left:101px;
+}
+.pop:nth-child(3) {
+ left:202px;
+}
+.pop:nth-child(4) {
+ left:303px;
+}
+
