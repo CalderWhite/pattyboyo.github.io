@@ -31,16 +31,16 @@
  text-align:center;
 }
 
-.pop:first {
+.pop:nth-child(2) {
  left:96px;
 }
-.pop:nth-child(2) {
+.pop:nth-child(3) {
  left:392px;
 }
-.pop:nth-child(3) {
+.pop:nth-child(4) {
  left:688px;
 }
-.pop:nth-child(4) {
+.pop:nth-child(5) {
  left:984px;
 }
 
