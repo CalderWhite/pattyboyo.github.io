@@ -31,7 +31,7 @@
  text-align:center;
 }
 
-.pop:nth-child(1) {
+.pop:first {
  left:96px;
 }
 .pop:nth-child(2) {
