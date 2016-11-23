@@ -1,5 +1,10 @@
 body {
- background-color: black;
+  z-index:0;
+  background-image:url('https://upload.wikimedia.org/wikipedia/commons/a/a2/Waterloo_ontario_king_street.jpg');
+  -webkit-filter: greyscale(100%);
+  -moz-filter:greyscale(100%);
+  filter:greyscale(100%);
+  
 }
 
 .pop {
