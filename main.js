@@ -1,9 +1,10 @@
 
 $(document).ready(function() {
-  for (var i = 0;i<5;i++) {
-    $('.pop:eq(i)').fadeIn('3000').delay('300')
-    
-  }
+  var m = 0
+  $('.pop:eq(0)').fadeIn('3000').delay('300')
+  $('.pop:eq(1)').fadeIn('3000').delay('300')
+  $('.pop:eq(2)').fadeIn('3000').delay('300')
+  $('.pop:eq(3)').fadeIn('3000').delay('300')
   
   
   
