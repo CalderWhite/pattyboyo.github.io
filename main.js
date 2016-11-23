@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-  $('.pop').fadeIn('slow')
+  $('.pop').fadeIn('1000')
   
   
   
