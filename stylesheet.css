@@ -9,19 +9,19 @@ body {
  width:200px;
  height:200px;
  position:absolute;
- top:400;
+ top:200px;
 }
 
 .pop:nth-child(1) {
- left:0px;
+ left:50px;
 }
 .pop:nth-child(2) {
- left:250px;
+ left:300px;
 }
 .pop:nth-child(3) {
- left:500px;
+ left:550px;
 }
 .pop:nth-child(4) {
- left:750px;
+ left:800px;
 }
 
