@@ -34,6 +34,7 @@
 .pop:nth-child(2) {
  left:96px;
  background-image:url('http://sweetclipart.com/multisite/sweetclipart/files/circles_pattern_blue_white.png');
+  background-size:100%;
 }
 .pop:nth-child(3) {
  left:392px;
