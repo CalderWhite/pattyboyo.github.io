@@ -10,7 +10,7 @@ body {
  height:200px;
  position:absolute;
  top:200px;
-
+ text-align:center;
 }
 
 .pop:nth-child(1) {
