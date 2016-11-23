@@ -1,6 +1,8 @@
 #container {
   z-index:0;
   background-image:url('http://vignette1.wikia.nocookie.net/cswikia/images/6/6f/Csgo-de-dust2.png/revision/latest?cb=20140820131233');
+  height:1200px;
+  width:1000px;
   -webkit-filter: greyscale(100%);
   -moz-filter:greyscale(100%);
   filter:greyscale(100%);
