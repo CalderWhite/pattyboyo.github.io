@@ -2,6 +2,12 @@ body {
   margin:0px;
 }
 
+#title {
+  position:absolute;
+  margin-top:60px;
+  margin-left:50%;
+}
+
 #container {
   z-index:0;
   background-image:url('https://i.ytimg.com/vi/HGbbqGRxznQ/maxresdefault.jpg');
@@ -36,5 +42,5 @@ body {
 }
 
 p {
-  margin-top:43%;
+  margin-top:44%;
 }
