@@ -10,8 +10,7 @@ body {
  height:200px;
  position:absolute;
  top:200px;
- text-align:center:
- padding:20px;
+
 }
 
 .pop:nth-child(1) {
@@ -27,3 +26,6 @@ body {
  left:800px;
 }
 
+p {
+  margin-top:43%;
+}
