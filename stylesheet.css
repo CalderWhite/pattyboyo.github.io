@@ -6,6 +6,7 @@ body {
   position:absolute;
   margin-top:60px;
   margin-left:50%;
+  display:none;
 }
 
 #container {
