@@ -1,3 +1,7 @@
+body {
+  margin:0px;
+}
+
 #container {
   z-index:0;
   background-image:url('https://i.ytimg.com/vi/HGbbqGRxznQ/maxresdefault.jpg');
