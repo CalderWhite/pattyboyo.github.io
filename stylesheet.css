@@ -18,21 +18,21 @@ body {
  width:200px;
  height:200px;
  position:absolute;
- top:200px;
+ top:347px;
  text-align:center;
 }
 
 .pop:nth-child(1) {
- left:100px;
+ left:96px;
 }
 .pop:nth-child(2) {
- left:350px;
+ left:392px;
 }
 .pop:nth-child(3) {
- left:600px;
+ left:688px;
 }
 .pop:nth-child(4) {
- left:850px;
+ left:984px;
 }
 
 p {
