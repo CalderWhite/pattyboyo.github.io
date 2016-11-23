@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-  $('.pop').fadeIn('1000')
+  $('.pop').fadeIn('3000')
   
   
   
