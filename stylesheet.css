@@ -38,12 +38,18 @@
 }
 .pop:nth-child(3) {
  left:392px;
+  background-image:url('https://wallpaperscraft.com/image/glare_shine_circles_background_light_68526_1920x1200.jpg');
+  background-size:100%;
 }
 .pop:nth-child(4) {
  left:688px;
+ background-image:url('http://www.zingerbug.com/Backgrounds/background_images/red_retro_circles.jpg');
+  background-size:100%;
 }
 .pop:nth-child(5) {
  left:984px;
+ background-image:url('http://www.zingerbug.com/Backgrounds/background_images/red_retro_circles.jpg');
+  background-size:100%;
 }
 
 p {
