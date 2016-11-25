@@ -8,6 +8,11 @@ $(document).ready(function() {
   window.setTimeout(function() { $('#title').fadeIn('1000')},5000);
   $('.pop').hover(function(){
     $(this).animate({height:250,width:250});
-  });
+  }, function() {
+    $(this).animate({height:200,width:200});
+};
+                 
+                 
+   );
     
-} );
+});
