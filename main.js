@@ -10,9 +10,6 @@ $(document).ready(function() {
     $(this).animate({height:250,width:250});
   }, function() {
     $(this).animate({height:200,width:200});
-};
-                 
-                 
-   );
+});
     
 });
