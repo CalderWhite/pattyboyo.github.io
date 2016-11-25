@@ -34,7 +34,7 @@
 a {
  border-radius: 50%;
  background-color: white;
- display:block;
+ display:none;
  width:200px;
  height:200px;
  position:absolute;
