@@ -33,22 +33,23 @@
 
 .pop:nth-child(2) {
  left:96px;
+  background-position:0px 10px;
  background-image:url('https://s15.postimg.org/ikb31jq0n/Untitled.png');
   background-size:100%;
 }
 .pop:nth-child(3) {
  left:392px;
-  background-image:url('http://www.photosinbox.com/download/abstract-green-defocused-circles.jpg');
+  background-image:url('https://s22.postimg.org/s3uf65z31/projects.png');
   background-size:100%;
 }
 .pop:nth-child(4) {
  left:688px;
- background-image:url('http://www.zingerbug.com/Backgrounds/background_images/red_retro_circles.jpg');
+ background-image:url('https://s21.postimg.org/rhnmfpmeb/gamez.png');
   background-size:100%;
 }
 .pop:nth-child(5) {
  left:984px;
- background-image:url('https://armswideopen.files.wordpress.com/2011/12/yellow-circles.jpg');
+ background-image:url('https://s16.postimg.org/lih5bq81t/random.png');
   background-size:100%;
 }
 
