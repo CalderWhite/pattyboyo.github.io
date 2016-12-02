@@ -77,7 +77,7 @@ var under = function(player,block) {
 							if(bpy == py-player.height-1){
 								player.jumping = true
 								player.grounded = false
-						} }
+						} } }
 boxes.push({
 	x:0,
 	y:0,
