@@ -68,7 +68,16 @@ var lfour = [boxes,{x:width/5-5,y:270,width:250,height:265},{x:2*width/5-5,y:380
 var lthree = [boxes,{x:300,y:440,width:30,height:60},{x:width/2 + 50,y:175,width:30,height:450},[970,1000,470,481,1,lfour,'Level 3']] 
 var ltwo = [boxes,{x:width/3,y:235,width:30,height:265},{x:2*width/3,y:235,width:30,height:265},[970,1000,470,481,1,lthree,'Level 2']]
 var lone = [boxes,{x:width/2,y:235,width:30,height:265},[970,1000,470,481,1,ltwo,'Level 1']]
-
+var under = function(player,block) {
+						var bpx = block.x;
+						var bpy = block.y;
+						var px = player.x
+						var py = player.y
+						if (px == bpx){
+							if(bpy == py-player.height-1){
+								player.jumping = true
+								player.grounded = false
+						}
 boxes.push({
 	x:0,
 	y:0,
@@ -138,8 +147,7 @@ function update() {
 					ctx.rect(current_level[i][a].x, current_level[i][a].y, current_level[i][a].width, current_level[i][a].height);
 					
 					var dir = colCheck(player, current_level[i][a])
-			//		var under = function(player,object) {
-			//			var beneathplayer = 
+					under(player,current_level[i][a])
 					if (dir === "l" || dir === "r") {
 				player.velX = 0;
             
@@ -154,7 +162,10 @@ function update() {
 			}
 			}
         ctx.rect(current_level[i].x, current_level[i].y, current_level[i].width, current_level[i].height);
-		if (current_level[i].length === undefined) {var dir = colCheck(player, current_level[i]);}
+		if (current_level[i].length === undefined) {
+			var dir = colCheck(player, current_level[i])
+			under(player,current_level[i])
+			}
 
         if (dir === "l" || dir === "r") {
             player.velX = 0;
