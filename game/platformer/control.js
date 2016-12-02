@@ -69,15 +69,31 @@ var lthree = [boxes,{x:300,y:440,width:30,height:60},{x:width/2 + 50,y:175,width
 var ltwo = [boxes,{x:width/3,y:235,width:30,height:265},{x:2*width/3,y:235,width:30,height:265},[970,1000,470,481,1,lthree,'Level 2']]
 var lone = [boxes,{x:width/2,y:235,width:30,height:265},[970,1000,470,481,1,ltwo,'Level 1']]
 var under = function(player,block) {
-						var bpx = block.x;
-						var bpy = block.y;
-						var px = player.x
-						var py = player.y
-						if (px == bpx){
-							if(bpy == py-player.height-1){
-								player.jumping = true
-								player.grounded = false
-						} } }
+	var cl = {
+		x: player.x,
+		y: player.y + player.height + 1
+	}
+	var fl = {
+		x: player.x + width,
+		y: player.y + player.height + 1
+	}
+	var ca = {
+		x:block.x,
+		y:block.y
+	}
+	var fa = {
+		x: block.x + block.width,
+		y: block.y
+	}
+	if(fl.x < ca.x && cl.y == ca.y) {
+		player.grounded = false;
+		player.jumping = true;
+	}
+	if(cl.x >  fa.x && cl.y == ca.y){
+		player.grounded = false;
+		player.jumping = true;
+	}
+}
 boxes.push({
 	x:0,
 	y:0,
