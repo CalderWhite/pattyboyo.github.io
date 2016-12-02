@@ -119,9 +119,8 @@ function update() {
 	} else {
 		counter = 0;
 	}
-	if( player.jumping) {
-		player.velY += gravity;
-	}
+	player.velY += gravity;
+	
 	
 	
 	player.velX *= friction;
