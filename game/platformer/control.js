@@ -119,7 +119,7 @@ function update() {
 	} else {
 		counter = 0;
 	}
-	player.velY += gravity;
+	
 	
 	
 	
@@ -138,6 +138,8 @@ function update() {
 					ctx.rect(current_level[i][a].x, current_level[i][a].y, current_level[i][a].width, current_level[i][a].height);
 					
 					var dir = colCheck(player, current_level[i][a])
+			//		var under = function(player,object) {
+			//			var beneathplayer = 
 					if (dir === "l" || dir === "r") {
 				player.velX = 0;
             
@@ -161,12 +163,13 @@ function update() {
 			if(current_level[i].nono) {
 				player.velX = 0;
 				player.velY = 0;
+				
 				player.x = 1
 				player.y = 489
 			}
             player.grounded = true;
             player.jumping = false;
-			friction = 0.8
+	    friction = 0.8
 			
         } else if (dir === "t") {
 			console.log("ouchie")
@@ -199,6 +202,7 @@ function update() {
 		player.x = current_level[current_level.length-1][4]
 		
 	}
+	player.velY += gravity;
 	requestAnimationFrame(update);
 }
 
