@@ -79,7 +79,7 @@ boxes.push({
 	x:0,
 	y:height-10,
 	width:width,
-	height:10
+	height:10000
 })
 boxes.push({
 	x:width-10,
